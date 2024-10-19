@@ -1,0 +1,55 @@
+/* Hover effect */
+a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+/* Parallax section styles */
+.parallax {
+    background-image: url('path-to-your-image.jpg'); /* Add your image URL */
+    min-height: 500px; /* Define height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Content inside parallax */
+.parallax-content {
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Overlay to make text readable */
+}
+/* Parallax background effect */
+body {
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(87, 81, 81);
+    color: #fff;
+}
+.underline {
+    text-decoration: underline;
+    color: #fff;
+   
+}
+.underline:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+.images:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+.card-title{
+    text-decoration: underline;
+}
+
+.card-title:hover{
+    color: #007bff;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #007bff;
+}
